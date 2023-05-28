@@ -34,6 +34,6 @@ public class TestOrangeHRMLoginLogout extends SeleniumUtility {
 	@AfterTest
 	public void postCondition() {
 		getOrangeHRM_DashboardPage.logoutFromApplication();
-		cleanUp();
+		//cleanUp();
 	}
 }
